@@ -1,0 +1,53 @@
+{
+  "business": [
+    {
+      "name": "Lucas Marc Design",
+      "phone": "801-471-3559",
+      "website": "lucasmarc.com",
+      "imageurl": "/lesson12/images/lucasmarc.JPG"
+    },
+    {
+      "name": "Homestar",
+      "phone": "801-770-4138",
+      "website": "homestarwindowsutah.com",
+      "imageurl": "/lesson12/images/homestar.JPG"
+    },
+    {
+      "name": "Best of Utah Moving Co.",
+      "phone": "801-871-5221",
+      "website": "bestofutahmoving.co",
+      "imageurl": "/lesson12/images/bestofutah.JPG"
+    },
+    {
+      "name": "CR Doors & Molding",
+      "phone": "801-489-1111",
+      "website": "crdoors.net",
+      "imageurl": "/lesson12/images/cr.JPG"
+    },
+    {
+      "name": "Olhausen Billards",
+      "phone": "801-466-6815",
+      "website": "olhausenbillards.com",
+      "imageurl": "/lesson12/images/olhau.jpg"
+    },
+    {
+      "name": "Beartooth Bites",
+      "phone": "801-680-8268",
+      "website": "beartoothbites.com",
+      "imageurl": "/lesson12/images/bear.JPG"
+    },
+    {
+      "name": "Custom Websites",
+      "phone": "801-589-4023",
+      "website": "bergwebsite.com",
+      "imageurl": "/lesson12/images/compass.JPG"
+    },
+    {
+      "name": "Backyard Bookkeeper",
+      "phone": "801-990-3227",
+      "website": "backyardbook.com",
+      "imageurl": "/lesson12/images/bb.JPG"
+    }
+
+  ]
+}

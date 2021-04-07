@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="shortcut icon" href="/lesson12/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">  
+    <title>Home Page</title>
+</head>
+<body>
+
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        <strong>COVID-19 Update:</strong> Statewide mask mandate to end April 10, 2021
+      </div>
+    
+    <header>
+        <img class="sun" id="logo" src="/lesson12/images/chamberlogo.png" alt="mountain logo">
+    
+        <h1>Chamber of Commerce</h1>
+       
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">Menu</a></li>
+            <li><a href="/lesson12/index.html" class="active">Home</a></li>
+            <li><a href="/lesson12/draper.html">Draper</a></li>
+            <li><a href="/lesson12/join.html">Join</a></li>
+            <li><a href="/lesson12/directory.html">Directory</a></li>
+            <li><a href="/lesson12/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <h2>Home</h2>
+
+    <section class="sec4">
+        <div class="leftcol">
+      <h2>Current Conditions in Draper:</h2>
+      <table>
+        <tbody>
+            <tr>
+                <td class="r1">Currently:</td>
+                <td class="r2" id="current"></td>                       
+            </tr> 
+            <tr>
+                <td class="r1">Temperature:</td>
+                <td class="r2"><span id="temp"></span> °F</td>
+            </tr>
+            <tr>
+                <td class="r1">Humidity:</td>
+                <td class="r2"><span id="hum"></span>%</td>
+            </tr>                        
+            <tr>
+                <td class="r1">Wind Speed:</td>
+                <td class="r2"><span id="ws"></span> mph</td>
+            </tr>
+        </tbody>
+    </table>
+       </div>
+        
+        
+        <div class="rightcol">
+           <h2>Three Day Forecast:</h2>
+           <table class="forecasttable">
+            <thead>
+                <tr>
+                    <th id="day0">Day</th>
+                    <th id="day1"></th>
+                    <th id="day2"></th>
+                    <th id="day3"></th>
+                </tr>
+                </thead>
+            <tbody>
+                <tr>
+                    <th>Weather</th>
+                    <td id="i1"><img id="img1" src= "https://openweathermap.org/img/w/13n.png" alt="error"></td>
+                    <td id="i2"><img id="img2" src= "https://openweathermap.org/img/w/02n.png" alt="error"></td>
+                    <td id="i3"><img id="img3" src= "https://openweathermap.org/img/w/13n.png" alt="error"></td>
+                  </tr>
+            </tbody>
+        </table>
+        </div>
+     </section> 
+
+     <section class="sec3">
+        <div class="leftcol">
+       <h3>Upcoming Events:</h3>
+       <ul class="events">
+        <li>April 2 - May 1 | Phantom of the OBT | Off Broadway Theatre, Inc. | Times vary</li>
+        <li>April 6 | Caregivers ALS Support Group | Alzheimer's Association Utah Chapter | 5:00-6:00 PM</li>
+        <li>April 17 | Summer Camp Open House | Amy's Martial Art's | 10:00 AM - 12:00 PM </li>
+        <li>May 25 - May 26 | May Car Show | The Garage Grill Restaurant | 10:00 PM May 25 - 3:00 AM May 26</li>
+      </ul>
+    </div>
+     </section>
+
+        <section class="sec1">
+            <div class="leftcol">
+          <h3>Join Us!</h3>
+           <p> We are always looking for new members here at the Chamber of Commerce in Draper, Utah! And it only takes a few minutes to join!</p>
+           </div>
+            
+            
+            <div class="rightcol">
+               <img class="img1" src="/lesson12/images/muni.webp" alt="building">
+            </div>
+         </section> 
+            
+            
+            
+         <section class="sec2"> 
+              <div class="leftcol">
+                <img class="img2" src="/lesson12/images/draper1.webp" alt="family on bridge">
+           </div>
+           
+           
+           
+           <div class="rightcol">
+              <h3 class="hspec">Goals and Purpose</h3>
+              <p class="pspec">Here at the Chamber of Commerce our goals are your goals! We want to help you create a solid network to help your business thrive!</p>
+            </div>
+        </section>
+
+        <div class="row2">
+            <div class="col" style="background-color: #5d737e; border: black; color: #fcfffd;">
+              <h2>Spitz in Draper</h2>
+              
+                <a class="ad" target="_blank" href="https://spitzrestaurant.com"><img id="icon1" src="/lesson12/images/spitzlogo.PNG" alt="spitz"></a>
+               <p>Stop by for the best Mediterranean street food in Draper!</p>
+               <p>Open for dine in or curbside pick up, we also offer contactless delivery!</p>
+               <p>62 E. 12300 S., Draper, UT 84020</p>
+             
+            </div>
+            <div class="col" style="background-color: #5d737e; border: black; color: #fcfffd;">
+                <h2>Piper & Scoot</h2>
+                <a class="ad" target="_blank" href="https://piperandscoot.com"><img id="icon2" src="/lesson12/images/piperandscoot.PNG" alt="piperandscoot"></a>
+                <p>Come to our store or find us online!</p>
+                <p>Currently celebrating our anniversary with 25% off your purchase!</p>
+                <p>892 E. 12300 S., Draper, UT 84020</p>
+            </div>
+            <div class="col" style="background-color: #5d737e; border: black; color: #fcfffd;">
+                <h2>Draper FlowerPros</h2>
+                <a class="ad" target="_blank" href="https://www.utahdraperflowerpro.com"><img id="icon3" src="/lesson12/images/draperflowers.jpeg" alt="flowers"></a>
+                <p>Your premium local florist!</p>
+                <p>We offer floral arrangements for any occasion!</p>
+                <p>12288 S. 700 E., Draper, UT 84020</p>
+              </div>
+          </div>
+            
+            
+            
+        <section class="sec3">
+            <div class="leftcol">
+           <h3>Contact Us!</h3>
+           <p>Phone: (555)-555-555</p>
+           <p>Email: drapercc@contact.com</p>
+           <p>Address: 555 S. Raven Rd.</p>
+              <a class="socialmedia" target="_blank" href="https://www.facebook.com"><img id="icon6" src="/lesson12/images/iconfinder_1_Facebook_colored_svg_copy_5296499.png" alt="facebook"></a>
+                 
+            
+            <a class="socialmedia" target="_blank" href="https://www.instagram.com"><img id="icon7" src="/lesson12/images/iconfinder_Instagram_570629.png" alt="instagram"></a>
+            
+            
+            <a class="socialmedia" target="_blank" href="https://twitter.com/twitter?lang=en"><img id="icon8" src="/lesson12/images/iconfinder_twitter_circle_294709.png" alt="twitter"></a>
+        </div>
+         </section>
+         
+
+        <footer>
+            <p> &copy; 2021 | AnDee Wadsworth Biggs | Draper, Utah | 
+             <a href="https://www.byui.edu/online" Class="link">BYUI Online Learning</a> 
+             
+           </p>
+           <p id="last"></p>
+           </footer>
+   
+
+    <script src="/lesson12/js/map.js"></script>
+    <script src="/lesson12/js/script.js"></script>
+    <script src="/lesson12/js/scripts.js"></script>
+    <script src="/lesson12/js/weather.js"></script>
+
+</body>
+</html>
